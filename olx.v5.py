@@ -63,8 +63,8 @@ def authorization():
   driver.get(url="https://www.olx.ua/account/")
   driver.find_element_by_class_name("cookiesBarClose").click()
   pause(5)
-  driver.find_element_by_id("userEmail").send_keys("login@gmail.com") # enter your username from olx.ua
-  pause(1)
+  driver.find_element_by_id("userEmail").send_keys("login@gmail.com") # enter your username from olx.ua 
+  pause(1) 
   driver.find_element_by_id("userPass").send_keys("password") # enter your password from olx.ua
   pause(5)
   driver.find_element_by_id("se_userLogin").click()
